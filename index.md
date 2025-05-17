@@ -1,37 +1,39 @@
-# Welcome to Lumen Pact Solutions
-Providing insight into action.
-
-This is the beginning of our website.  
-
-<!-- Custom styles for background and text color -->
 <style>
-body {
-  background: #000 !important;
-  color: #fff !important;
-}
+body {background: linear-gradient(120deg, #FAF3E3 0%, #E9D8B4 100%);
+  color: #232323 !important;}
 .container {
-  max-width: 700px;
+  max-width: 650px;
   margin: 60px auto;
-  padding: 40px 24px;
-  background: rgba(20,20,20,0.93);
-  border-radius: 28px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.7);
+  padding: 36px 16px;
+  background: rgba(255,255,255,0.97);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.09);
   text-align: center;
 }
 .logo {
-  width: 220px;
-  margin-bottom: 32px;
-  margin-top: 10px;
+  width: 180px;
+  margin-bottom: 28px;
+  margin-top: 4px;
 }
 h1 {
-  color: #70b8ff;
-  font-size: 2.5rem;
-  letter-spacing: 0.5px;
-  margin-bottom: 0.5em;
+  color: #4d4325;
+  font-size: 2.1rem;
+  margin-bottom: 0.6em;
 }
 p {
-  font-size: 1.15rem;
-  margin-bottom: 1.2em;
+  font-size: 1.13rem;
+  margin-bottom: 1.15em;
+}
+a.button {
+  display:inline-block;
+  padding:12px 32px;
+  background:#e9d8b4;
+  color:#4d4325;
+  border-radius:8px;
+  font-weight:bold;
+  text-decoration:none;
+  margin-top:18px;
+  box-shadow: 0 2px 6px rgba(200,180,120,0.18);
 }
 </style>
 
@@ -39,6 +41,6 @@ p {
   <img src="LUMEN.png" alt="Lumen Pact Logo" class="logo" />
   <h1>Welcome to Lumen Pact Solutions</h1>
   <p>Transforming insight into action.</p>
-  <p>This is just the beginning.Stay tuned for regular blog posts concerning the latest market news and inghts! <br>
-  </p>
+  <p>This is just the beginning. Stay tuned for regular blog posts concerning the latest market news and insights!</p>
+  <a href="mailto:your@email.com" class="button">Contact Us</a>
 </div>
