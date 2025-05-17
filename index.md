@@ -1,8 +1,7 @@
 # Welcome to Lumen Pact Solutions
-Transforming insight into action.
+Providing insight into action.
 
-This is the beginning of your website.  
-You can add more pages, blog posts, or info as you grow!
+This is the beginning of our website.  
 
 <!-- Custom styles for background and text color -->
 <style>
