@@ -44,3 +44,8 @@ a.button {
   <p>This is just the beginning. Stay tuned for regular blog posts concerning the latest market news and insights!</p>
   <a href="mailto:your@email.com" class="button">Contact Us</a>
 </div>
+
+---
+title: Lumen Pact Solutions | Independent Market Insights & Strategy
+description: Lumen Pact Solutions provides actionable insights, analytics, and strategic guidance for business, markets, and innovation. Not affiliated with Lumen Technologies.
+---
