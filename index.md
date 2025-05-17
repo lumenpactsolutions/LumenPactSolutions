@@ -39,6 +39,6 @@ p {
   <img src="LUMEN.png" alt="Lumen Pact Logo" class="logo" />
   <h1>Welcome to Lumen Pact Solutions</h1>
   <p>Transforming insight into action.</p>
-  <p>This is the beginning of your website.<br>
-  You can add more pages, blog posts, or info as you grow!</p>
+  <p>This is just the beginning.Stay tuned for regular blog posts concerning the latest market news and inghts! <br>
+  </p>
 </div>
