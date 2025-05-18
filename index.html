@@ -2,73 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lumen Pact Solutions</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fdfaf5;
-      color: #333;
-      line-height: 1.6;
+      background-color: #1a1a1a;
+      color: #f2f2f2;
+      font-family: 'Segoe UI', sans-serif;
     }
 
     header {
-      background-color: #0d0d0d;
-      color: #f9f9f9;
-      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #111111;
+      border-bottom: 1px solid #333;
+    }
+
+    nav a {
+      color: #f2f2f2;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #c49b66;
+    }
+
+    .logo {
+      height: 40px;
+    }
+
+    .hero {
       text-align: center;
+      padding: 100px 20px 60px;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #c49b66;
     }
 
-    .container {
-      padding: 40px 20px;
-      max-width: 800px;
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
       margin: auto;
-    }
-
-    .cta {
-      background-color: #f4e2d8;
-      padding: 20px;
-      border-left: 5px solid #ff6600;
-      margin-top: 20px;
+      color: #ddd;
     }
 
     footer {
       text-align: center;
       padding: 20px;
       font-size: 0.9rem;
-      color: #999;
+      color: #888;
+      border-top: 1px solid #333;
+      margin-top: 60px;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Lumen Pact Solutions</h1>
-    <p>Transforming Insight into Action</p>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Mission</a>
+      <a href="#">Products</a>
+      <a href="#">Insights</a>
+      <a href="#">Contact</a>
+    </nav>
+    <img src="logo.png" alt="Lumen Logo" class="logo">
   </header>
 
-  <div class="container">
-    <h2>🚀 Welcome to the Future of Financial Intelligence</h2>
-    <p>
-      Lumen Pact is building tools to help individuals and businesses outthink the market,
-      design smarter retirement strategies, and navigate financial systems with clarity.
-    </p>
-
-    <div class="cta">
-      <h3>🌟 Coming Soon: Lumen Market Intelligence</h3>
-      <p>Our flagship tool for tracking economic trends, optimizing portfolios, and planning financial independence. Join the movement.</p>
-    </div>
-
-    <p>💡 Want to collaborate or stay updated? Reach out at <strong>clowery@lumenpactsolutions.com</strong></p>
-  </div>
+  <section class="hero">
+    <h1>Transforming Insight Into Action</h1>
+    <p>Lumen Pact is building the future of market strategy, financial intelligence, and personalized capital systems. We help individuals and businesses outthink the market and design their financial futures with clarity and power.</p>
+  </section>
 
   <footer>
     &copy; 2025 Lumen Pact Solutions. All rights reserved.
   </footer>
+
 </body>
 </html>
